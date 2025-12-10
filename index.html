@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الجامعة التقنية الشمالية - الأمن السيبراني</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-section">
+            <img src="https://cdn-images.imagevenue.com/40/a3/bf/ME1C3EVH_o.jpg" alt="شعار الجامعة" class="logo">
+            <div class="title">
+                <h1>الجامعة التقنية الشمالية</h1>
+                <p>قسم هندسة الأمن السيبراني والحوسبة السحابية</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sections-grid">
+            <div class="section-card" onclick="openSection('schedule')">
+                <div class="section-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3>جدول المحاضرات</h3>
+                <p>عرض جداول الصباحي والمسائي للشعب A, B, C</p>
+            </div>
+
+            <div class="section-card" onclick="openSection('classroom')">
+                <div class="section-icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <h3>أكواد الكلاس روم</h3>
+                <p>روابط انضمام لمقررات Google Classroom</p>
+            </div>
+
+            <div class="section-card" onclick="openSection('telegram-groups')">
+                <div class="section-icon">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <h3>كروبات الدفعة</h3>
+                <p>مجموعات تليجرام للشعب الصباحي والمسائي</p>
+            </div>
+
+            <div class="section-card" onclick="openSection('channels')">
+                <div class="section-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>التبليغات والقنوات</h3>
+                <p>قنوات التليجرام الرسمية للكلية والقسم</p>
+            </div>
+
+            <div class="section-card" onclick="openSection('students')">
+                <div class="section-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>أسماء الطلبة</h3>
+                <p>أسماء طلبة الصباحي وأماكن المختبرات</p>
+            </div>
+
+            <div class="section-card" onclick="openSection('about')">
+                <div class="section-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <h3>معلومات المطور</h3>
+                <p>حول المطور وطرق التواصل</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">القسم</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
