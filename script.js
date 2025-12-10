@@ -29,7 +29,7 @@ function openSection(section) {
             showChannels();
             break;
         case 'students':
-            modalTitle.textContent = 'أسماء الطلبة';
+            modalTitle.textContent = 'أماكن المختبرات والقاعات';
             showStudentsSection();
             break;
         case 'about':
@@ -271,8 +271,6 @@ function showTelegramGroupsByType(type) {
             { name: 'شعبة B', link: 'https://t.me/+U2NQvFR9JaQ4MTky' },
             { name: 'شعبة C', link: 'https://t.me/+U2NQvFR9JaQ4MTky' }
         ];
-        
-        
     } else {
         generalLink = 'https://t.me/+3c8qF8V9F6RkOTFk';
         groups = [
@@ -354,35 +352,9 @@ function showChannels() {
 
 function showStudentsSection() {
     const modalBody = document.getElementById('modal-body');
-    
-    modalBody.innerHTML = `
-        <p style="text-align: center; color: #666; margin-bottom: 30px; font-size: 1.1rem;">
-            اختر ما تريد عرضه
-        </p>
-        
-        <div class="options-grid">
-            <button class="option-btn" onclick="showClassroomsImage()">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>أماكن المختبرات والقاعات</span>
-            </button>
-            <button class="option-btn" onclick="showStudentsPDFs()">
-                <i class="fas fa-users"></i>
-                <span>أسماء طلبة الصباحي</span>
-            </button>
-        </div>
-    `;
-}
-
-function showClassroomsImage() {
-    const modalBody = document.getElementById('modal-body');
     const imageUrl = 'https://www2.0zz0.com/2025/12/10/14/103384321.jpg';
     
     modalBody.innerHTML = `
-        <button class="option-btn" style="margin-bottom: 20px;" onclick="showStudentsSection()">
-            <i class="fas fa-arrow-right"></i>
-            <span>رجوع</span>
-        </button>
-        
         <h3 style="text-align: center; color: #1a237e; margin-bottom: 20px;">
             أماكن المختبرات والقاعات
         </h3>
@@ -393,45 +365,6 @@ function showClassroomsImage() {
             <button class="join-btn" onclick="window.open('${imageUrl}', '_blank')" style="width: auto; padding: 10px 30px;">
                 <i class="fas fa-external-link-alt"></i> فتح الصورة في نافذة جديدة
             </button>
-        </div>
-    `;
-}
-
-function showStudentsPDFs() {
-    const modalBody = document.getElementById('modal-body');
-    
-    const pdfLinks = [
-        {
-            group: 'A',
-            link: 'https://saintly-jewel-957.sharebob.app'
-        },
-        {
-            group: 'B', 
-            link: 'https://intimate-rail-47.sharebob.app'
-        },
-        {
-            group: 'C',
-            link: 'https://convincing-day-149.sharebob.app/'
-        }
-    ];
-    
-    modalBody.innerHTML = `
-        <button class="option-btn" style="margin-bottom: 20px;" onclick="showStudentsSection()">
-            <i class="fas fa-arrow-right"></i>
-            <span>رجوع</span>
-        </button>
-        
-        <p style="text-align: center; color: #666; margin-bottom: 30px; font-size: 1.1rem;">
-            اختر الشعبة لعرض أسماء الطلبة (سيتم فتح ملف PDF في نافذة جديدة)
-        </p>
-        
-        <div class="options-grid">
-            ${pdfLinks.map(pdf => `
-                <a href="${pdf.link}" target="_blank" class="option-btn" style="text-decoration: none;">
-                    <i class="fas fa-file-pdf"></i>
-                    <span>الشعبة ${pdf.group}</span>
-                </a>
-            `).join('')}
         </div>
     `;
 }
@@ -482,7 +415,7 @@ function showAboutInfo() {
                     </li>
                     <li style="margin-bottom: 10px; padding-right: 20px; position: relative;">
                         <i class="fas fa-check-circle" style="color: #4caf50; position: absolute; right: 0;"></i>
-                        أسماء الطلبة وأماكن المختبرات
+                        أماكن المختبرات والقاعات
                     </li>
                 </ul>
             </div>
