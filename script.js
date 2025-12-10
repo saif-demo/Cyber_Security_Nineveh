@@ -401,15 +401,15 @@ function showStudentsPDFs() {
     const pdfLinks = [
         {
             group: 'A',
-            link: 'https://gnygxghbaxatvpryczjc.supabase.co/storage/v1/object/sign/files/1765377057671-9ticq6k8.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jNTg5ZDg2ZS00MTZlLTRkMzItOGYxZS03OGJmMGZhMDA1MTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy8xNzY1Mzc3MDU3NjcxLTl0aWNxNms4LnBkZiIsImlhdCI6MTc2NTM3NzA5NSwiZXhwIjoxNzY1MzgwNjk1fQ.bF8bvd4KIZDoiBZNGD1xD6rDrMnpgMtlyFkXOnKaZ_k'
+            link: 'https://saintly-jewel-957.sharebob.app'
         },
         {
             group: 'B', 
-            link: 'https://gnygxghbaxatvpryczjc.supabase.co/storage/v1/object/sign/files/1765377631203-k77fblzc.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jNTg5ZDg2ZS00MTZlLTRkMzItOGYxZS03OGJmMGZhMDA1MTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy8xNzY1Mzc3NjMxMjAzLWs3N2ZibHpjLnBkZiIsImlhdCI6MTc2NTM3NzYzNSwiZXhwIjoxNzY1MzgxMjM1fQ.Iolx8w_DzulDPD-Ar1m7OzZv_ZYXeAwOIFNzxmfa3mQ'
+            link: 'https://intimate-rail-47.sharebob.app'
         },
         {
             group: 'C',
-            link: 'https://gnygxghbaxatvpryczjc.supabase.co/storage/v1/object/sign/files/1765377706195-gzhk47id.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jNTg5ZDg2ZS00MTZlLTRkMzItOGYxZS03OGJmMGZhMDA1MTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy8xNzY1Mzc3NzA2MTk1LWd6aGs0N2lkLnBkZiIsImlhdCI6MTc2NTM3NzcxMCwiZXhwIjoxNzY1MzgxMzEwfQ.c2FjvuoKOtou6iZE-MlL6yVvUEm77IoNzNFRYeMTv4M'
+            link: 'https://convincing-day-149.sharebob.app/'
         }
     ];
     
