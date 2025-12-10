@@ -267,15 +267,17 @@ function showTelegramGroupsByType(type) {
     if (type === 'morning') {
         generalLink = 'https://t.me/+FEkzRHHyUqQ4OGFi';
         groups = [
-            { name: 'شعبة A', link: 'https://t.me/+6Zk6In_xcG8xOWRi' },
-            { name: 'شعبة B', link: 'https://t.me/+eGlyyAnFq_BlZmU0' },
+            { name: 'شعبة A', link: 'https://t.me/+_CZLHjN_jhE5NjFi' },
+            { name: 'شعبة B', link: 'https://t.me/+U2NQvFR9JaQ4MTky' },
             { name: 'شعبة C', link: 'https://t.me/+U2NQvFR9JaQ4MTky' }
         ];
+        
+        
     } else {
         generalLink = 'https://t.me/+3c8qF8V9F6RkOTFk';
         groups = [
-            { name: 'شعبة A', link: 'https://t.me/+_CZLHjN_jhE5NjFi' },
-            { name: 'شعبة B', link: 'https://t.me/+U2NQvFR9JaQ4MTky' },
+            { name: 'شعبة A', link: 'https://t.me/+6Zk6In_xcG8xOWRi' },
+            { name: 'شعبة B', link: 'https://t.me/+eGlyyAnFq_BlZmU0' },
             { name: 'شعبة C', link: 'https://t.me/+U2NQvFR9JaQ4MTky' }
         ];
     }
