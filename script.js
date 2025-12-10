@@ -268,7 +268,7 @@ function showTelegramGroupsByType(type) {
         generalLink = 'https://t.me/+FEkzRHHyUqQ4OGFi';
         groups = [
             { name: 'شعبة A', link: 'https://t.me/+_CZLHjN_jhE5NjFi' },
-            { name: 'شعبة B', link: 'https://t.me/+U2NQvFR9JaQ4MTky' },
+            { name: 'شعبة B', link: 'https://t.me/+g9SHYurc26oxZWZi' },
             { name: 'شعبة C', link: 'https://t.me/+U2NQvFR9JaQ4MTky' }
         ];
     } else {
